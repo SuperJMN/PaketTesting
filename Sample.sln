@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{179197EE-C4F0-422C-BFE5-5AE509C934D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Paket", "Paket", "{B235ADF5-E31E-4BF7-AC46-090920B94B2B}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{1D174767-2533-4002-9059-D38C3020CD89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{179197EE-C4F0-422C-BFE5-5AE509C934D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{179197EE-C4F0-422C-BFE5-5AE509C934D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{179197EE-C4F0-422C-BFE5-5AE509C934D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D174767-2533-4002-9059-D38C3020CD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D174767-2533-4002-9059-D38C3020CD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D174767-2533-4002-9059-D38C3020CD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D174767-2533-4002-9059-D38C3020CD89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
